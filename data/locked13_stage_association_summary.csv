@@ -1,0 +1,2 @@
+n_samples_with_valid_stage,n_samples_in_restored_expression,n_features_tested,n_locked13_present,locked13_median_rank_abs_spearman,locked13_mean_abs_spearman,locked13_max_abs_spearman,locked13_top_1pct_count,locked13_top_5pct_count,locked13_top_10pct_count
+280,280,37055,13,27745.0,0.20071197836350774,0.32318153891977686,0,0,1

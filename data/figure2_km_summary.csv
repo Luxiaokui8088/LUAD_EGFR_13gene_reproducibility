@@ -1,0 +1,3 @@
+figure,test_cindex,n_total,n_high,n_low,events_high,events_low,median_cutoff,logrank_p
+figure2b_rsf_closest_km_with_risk_table,0.8290598290598291,30,15,15,5,1,4.558947118895979,0.09860956697494808
+figure2c_xgb_closest_km_with_risk_table,0.8632478632478633,30,15,15,6,0,0.0025935998,0.012547182423554085

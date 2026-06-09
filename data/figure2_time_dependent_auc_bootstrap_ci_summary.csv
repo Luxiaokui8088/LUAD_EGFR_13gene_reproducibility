@@ -1,0 +1,7 @@
+model,timepoint,t_day,auc,ci95_low,ci95_high,bootstrap_n_requested,bootstrap_n_valid,test_n,test_events_by_time,test_controls_beyond_time,method
+RSF,1-year,365.0,0.8571428571428572,0.7142857142857143,0.9655172413793103,5000,3197,30,1,28,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set
+RSF,3-year,1095.0,0.8637271022894875,0.6107394433325907,1.0,5000,4918,30,4,20,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set
+RSF,5-year,1825.0,0.924149755236476,0.731068689996563,1.0,5000,4983,30,5,11,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set
+XGBoost,1-year,365.0,0.8214285714285715,0.6666666666666667,0.9629629629629629,5000,3197,30,1,28,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set
+XGBoost,3-year,1095.0,0.8607660355859958,0.6666666666666666,1.0,5000,4918,30,4,20,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set
+XGBoost,5-year,1825.0,0.9537021661733218,0.7999999999999999,1.0,5000,4983,30,5,11,sksurv.metrics.cumulative_dynamic_auc; bootstrap resampling of held-out test set

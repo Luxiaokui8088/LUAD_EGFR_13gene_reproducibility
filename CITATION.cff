@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript and this archived repository."
+title: "LUAD EGFR-mutant 13-gene Prognostic Signature Reproducibility Package"
+type: software
+version: "1.0.0"
+date-released: "2026-06-09"
+license: "CC-BY-NC-4.0"
+abstract: "Analysis scripts, locked 13-gene signature definition, processed source-data tables, and revision figures for reproducibility of an EGFR-mutant lung adenocarcinoma prognostic-signature study."
+authors:
+  - family-names: "To be updated"
+    given-names: "Manuscript authors"
+repository-code: "https://github.com/Luxiaokui8088/LUAD_EGFR_13gene_reproducibility"
+keywords:
+  - "lung adenocarcinoma"
+  - "EGFR mutation"
+  - "prognostic signature"
+  - "XGBoost"
+  - "random survival forest"
+  - "reproducibility"

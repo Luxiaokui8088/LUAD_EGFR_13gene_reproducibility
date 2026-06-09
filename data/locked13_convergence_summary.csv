@@ -1,0 +1,2 @@
+n_samples,n_genes_universe,locked_genes_source,n_locked_genes_requested,n_locked_genes_present,n_locked_genes_missing,locked_gene_minimum_required,locked13_mean_abs_spearman,locked13_pca_var_explained_pc1,bootstrap_n,random_baseline_n,kscan_random_n
+293,37055,mapping_file,13,13,0,3,0.3210731576473402,0.5200992705175175,500,500,300
