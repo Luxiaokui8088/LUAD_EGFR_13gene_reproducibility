@@ -9,7 +9,6 @@ abstract: "Analysis scripts, locked 13-gene signature definition, processed sour
 authors:
   - family-names: "To be updated"
     given-names: "Manuscript authors"
-repository-code: "https://github.com/Luxiaokui8088/LUAD_EGFR_13gene_reproducibility"
 keywords:
   - "lung adenocarcinoma"
   - "EGFR mutation"
