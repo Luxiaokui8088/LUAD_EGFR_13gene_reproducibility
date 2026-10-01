@@ -6,10 +6,9 @@ The package is intentionally limited to low-risk, manuscript-facing materials:
 
 - locked 13-gene signature definition;
 - locked XGBoost feature-importance table used in the manuscript;
-- source data tables for revised model-performance and validation figures;
+- source data tables for model-performance and validation analyses;
 - source data tables for 13-gene stage-association analyses;
-- scripts for cohort preprocessing, data cleaning, feature construction, model training/optimization, external validation, 13-gene score calculation, and replotting performance confidence intervals;
-- figure files used in the revision.
+- scripts for cohort preprocessing, data cleaning, feature construction, model training/optimization, external validation, 13-gene score calculation.
 
 It does not include private patient-level raw data, personal paths, local working logs, or historical model-search attempts.
 
@@ -20,7 +19,6 @@ reproducibility_package/
   README.md
   requirements.txt
   data/
-  figures/
   scripts/
   docs/
 ```
@@ -46,16 +44,6 @@ See `scripts/README_pipeline.md` for the full script-level workflow.
 
 - `data/locked13_stage_association.csv` and `data/full_feature_stage_association.csv`  
   Stage-association source data used to quantify the 13-gene signature within the full feature background.
-
-## Key Figures
-
-- `figures/figure2_cindex_bootstrap_ci.pdf`
-- `figures/figure2_time_dependent_auc_bootstrap_ci.pdf`
-- `figures/figure2_rsf_km_with_at_risk_table.png`
-- `figures/figure2_xgboost_km_with_at_risk_table.png`
-- `figures/gse13213_egfr_subset_km.png`
-- `figures/gse13213_egfr_subset_roc_1y3y5y.png`
-- `figures/locked13_stage_rank_distribution.png`
 
 ## 13-gene Score Definition
 
@@ -87,12 +75,6 @@ Calculate a 13-gene score from a sample-by-feature expression matrix:
 python scripts/calculate_13gene_score.py \
   --expression path/to/expression_matrix.csv \
   --out path/to/locked13_scores.csv
-```
-
-Replot the model-performance confidence-interval figures from package source data:
-
-```bash
-python scripts/plot_model_performance_ci.py
 ```
 
 ## Raw Data
